@@ -1,0 +1,163 @@
+.bg-red {
+  background-color: #5C0000 !important;
+}
+
+.active {
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.text-nav {
+  color: rgb(209, 213, 219) !important;
+}
+
+.bg-image {
+  height: 99.8vh !important;
+  width: 100%;
+}
+
+.opacity-black {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.overlay {
+  position: absolute;
+  height: 92.3vh;
+  width: 100%;
+  top: 3.5rem;
+  left: 0;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.overlay-text {
+  position: absolute;
+  height: 92.3vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  font-family: "Ravi Prakash", cursive;
+}
+
+.btn-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-buy {
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-logout {
+  background-color: rgb(173, 173, 173) !important;
+  justify-content: end !important;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  padding: none;
+}
+
+.btn-red {
+  background-color: #A01111 !important;
+}
+
+.text-gray {
+  color: rgb(121, 122, 124) !important;
+  font-size: small;
+}
+
+.card-img {
+  width: 40rem !important;
+  height: 18rem !important;
+}
+
+.text-underline {
+  text-decoration: underline;
+  color: red;
+}
+
+.m-top {
+  margin-top: 3rem !important;
+}
+
+.w-icon {
+  width: 1rem;
+}
+
+.img-yt {
+  height: 35rem;
+}
+
+.footer {
+  position: relative;
+  padding: 0.2rem;
+  background-color: #252424;
+  color: white;
+  font-size: small;
+  text-align: center;
+}
+
+.footer-pesanan {
+  position: absolute;
+  margin-top: 2rem !important;
+  bottom: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  vertical-align: bottom !important;
+  width: 100%;
+  padding: 0.2rem;
+  background-color: #252424;
+  color: white;
+  font-size: small;
+}
+
+.w-button {
+  width: 15rem;
+}
+
+.card-pesanan {
+  position: relative;
+  top: 5rem !important;
+}
+
+.card-add {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+  margin-top: 4rem !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  padding: 4rem !important;
+  border-radius: 0.5rem !important;
+  -webkit-border-radius: 0.5rem !important;
+  -moz-border-radius: 0.5rem !important;
+  -ms-border-radius: 0.5rem !important;
+  -o-border-radius: 0.5rem !important;
+}/*# sourceMappingURL=style.css.map */

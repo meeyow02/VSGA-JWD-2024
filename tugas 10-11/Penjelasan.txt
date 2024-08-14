@@ -1,0 +1,11 @@
+Pada halaman proses-pendaftaran-2.php terdapat error berikut
+"Parse error: syntax error, unexpected token "=" in D:\laragon\www\vsga\tugas 10-11\proses-pendaftaran-2.php on line 10"
+error disebabkan karena kurangnya symbol "$" pada variabel "sekolah".
+
+================================================
+
+Setelah melakukan perbaikan di atas, terdapat pesan berikut
+"Not Found
+The requested URL was not found on this server."
+
+jika query berhasil disimpan maka halaman akan dialihkan ke index.php, tetapi tidak ada file index.php yang dibuat sebelumnya. Jadi, saya membuat file index.php untuk menampilkan data yang berhasil disimpan ke database.
