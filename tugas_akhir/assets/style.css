@@ -160,4 +160,8 @@ a:hover {
   -moz-border-radius: 0.5rem !important;
   -ms-border-radius: 0.5rem !important;
   -o-border-radius: 0.5rem !important;
+}
+
+.img-thumbnail {
+  height: 18rem !important;
 }/*# sourceMappingURL=style.css.map */

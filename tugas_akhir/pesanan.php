@@ -176,9 +176,6 @@
         ?>
     </div>
 
-    <!-- FOOTER -->
-    <!-- <div class="footer-pesanan">&copy Game09</div> -->
-
     <!-- Edit Data Modal -->
     <div class="modal fade" id="formEditGame" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">

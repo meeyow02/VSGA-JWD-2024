@@ -38,28 +38,28 @@
 
         <div class="container mt-5">
             <!-- GAME -->
-            <h3 id="game">Game</h3>
+            <h3 id="game">Paket Game</h3>
             <hr>
             <div class="row">
                 <div class="col">
-                    <img class="img-thumbnail mb-3" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
-                    <h6>Valorant</h6>
-                    <span class="text-gray">By Developer - Dec 07, 2022</span>
+                    <img class="img-thumbnail mb-3" src="https://www.acerid.com/wp-content/uploads/2021/06/thumbnail-Main-Banyak-Game-PC-Tanpa-Khawatir-Storage-Penuh-dengan-Desktop-Ini.jpg" alt="Paket Game A">
+                    <h6>Paket A</h6>
+                    <span class="text-gray">Rp. 5.000,00</span>
                 </div>
                 <div class="col">
-                    <img class="img-thumbnail mb-3" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
-                    <h6>Valorant</h6>
-                    <span class="text-gray">By Developer - Dec 07, 2022</span>
+                    <img class="img-thumbnail mb-3" src="https://i.pinimg.com/736x/fb/46/2c/fb462cfc55c2fa522b65ee4c8a437164.jpg" alt="Paket Game B">
+                    <h6>Paket Game B</h6>
+                    <span class="text-gray">Rp. 10.000,00</span>
                 </div>
                 <div class="col">
-                    <img class="img-thumbnail mb-3" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
-                    <h6>Valorant</h6>
-                    <span class="text-gray">By Developer - Dec 07, 2022</span>
+                    <img class="img-thumbnail mb-3" src="https://c4.wallpaperflare.com/wallpaper/699/369/173/video-games-the-elder-scrolls-v-skyrim-grand-theft-auto-v-mass-effect-3-wallpaper-preview.jpg" alt="Paket Game C">
+                    <h6>Paket Game C</h6>
+                    <span class="text-gray">Rp. 15.000,00</span>
                 </div>
                 <div class="col">
-                    <img class="img-thumbnail mb-3" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
-                    <h6>Valorant</h6>
-                    <span class="text-gray">By Developer - Dec 07, 2022</span>
+                    <img class="img-thumbnail mb-3" src="https://c4.wallpaperflare.com/wallpaper/297/13/308/video-games-diablo-iii-diablo-tyrael-wallpaper-preview.jpg" alt="Paket Game D">
+                    <h6>Paket Game D</h6>
+                    <span class="text-gray">Rp. 20.000,00</span>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col">
-                            <img class="card-img" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
+                            <img class="card-img" src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/wz/overview/WZPLP_Hero.webp" alt="COD Warzone 2">
                         </div>
                         <div class="col">
                             <div class="row m-top">
@@ -106,15 +106,14 @@
                 <div class="col">
                     <div class="row">
                         <div class="col">
-                            <img class="card-img" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
+                            <img class="card-img" src="https://www.gamereactor.no/media/grtv/53/625333_w926.jpg" alt="The Devil in Me">
                         </div>
                         <div class="col">
                             <div class="row m-top">
                                 <span class="text-underline mb-3">Berita</span>
-                                <h5 class="mb-3">Call of Duty: Warzone 2 hackers are
-                                    taking to the skies in flying boats</h5>
-                                <span class="mb-3">Call of Duty: Warzone 2 hackers are getting creative with flying boats.</span>
-                                <span class="mb-3">By Lauren Sayles</span>
+                                <h5 class="mb-3">The Devil in Me: Story Analysis — H. H. Holmes and the Murder Castle</h5>
+                                <span class="mb-3">Learn about the crimes of H. H. Holmes and the secrets of the Murder Castle in The Devil in Me.</span>
+                                <span class="mb-3">By Jason Rodriguez</span>
                                 <div class="col">
                                     <svg class="w-icon" version="1.1" id="fi_992700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                                         <g>
@@ -132,7 +131,7 @@
                                             </g>
                                         </g>
                                     </svg>
-                                    <span class="text-gray">21 seconds ago</span>
+                                    <span class="text-gray">3 hours ago</span>
                                 </div>
                             </div>
                         </div>
@@ -142,15 +141,14 @@
                 <div class="col">
                     <div class="row">
                         <div class="col">
-                            <img class="card-img" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
+                            <img class="card-img" src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/warzone-promo-image.jpg" alt="COD Warzone 2">
                         </div>
                         <div class="col">
                             <div class="row m-top">
                                 <span class="text-underline mb-3">Berita</span>
-                                <h5 class="mb-3">Call of Duty: Warzone 2 hackers are
-                                    taking to the skies in flying boats</h5>
-                                <span class="mb-3">Call of Duty: Warzone 2 hackers are getting creative with flying boats.</span>
-                                <span class="mb-3">By Lauren Sayles</span>
+                                <h5 class="mb-3">Warzone 2: How to fix the bomb drone glitch</h5>
+                                <span class="mb-3">A new glitch is forcing players in place, leaving them to die in Warzone 2.</span>
+                                <span class="mb-3">By Cameron Woolsey</span>
                                 <div class="col">
                                     <svg class="w-icon" version="1.1" id="fi_992700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                                         <g>
@@ -168,7 +166,7 @@
                                             </g>
                                         </g>
                                     </svg>
-                                    <span class="text-gray">21 seconds ago</span>
+                                    <span class="text-gray">1 hours ago</span>
                                 </div>
                             </div>
                         </div>
@@ -187,30 +185,30 @@
                         <span class="text-gray">By Developer - Dec 07, 2022</span>
                     </div>
                     <div class="col">
-                        <img class="img-thumbnail mb-3" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
-                        <h6>Valorant</h6>
+                        <img class="img-thumbnail mb-3" src="https://cdn1-production-images-kly.akamaized.net/XznoBZcs4cKsVCKXiMyHhfYCrGM=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/796713/original/094485900_1421485203-GTAV-Review.jpg" alt="GTA V">
+                        <h6>GTA V</h6>
                         <span class="text-gray">By Developer - Dec 07, 2022</span>
                     </div>
                     <div class="col">
-                        <img class="img-thumbnail mb-3" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
-                        <h6>Valorant</h6>
+                        <img class="img-thumbnail mb-3" src="https://image.api.playstation.com/vulcan/img/rnd/202106/0722/XOnaj4v0bsV0fLTKZX7DsKwU.jpg" alt="FarCRy 6">
+                        <h6>FarCry 6</h6>
                         <span class="text-gray">By Developer - Dec 07, 2022</span>
                     </div>
                 </div>
                 <div class="row mt-5">
                     <div class="col">
-                        <img class="img-thumbnail mb-3" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
-                        <h6>Valorant</h6>
+                        <img class="img-thumbnail mb-3" src="https://gaming-cdn.com/images/products/612/616x353/battlefield-5-pc-game-ea-app-cover.jpg?v=1704195179" alt="Battlefield V">
+                        <h6>Battlefield V</h6>
                         <span class="text-gray">By Developer - Dec 07, 2022</span>
                     </div>
                     <div class="col">
-                        <img class="img-thumbnail mb-3" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
-                        <h6>Valorant</h6>
+                        <img class="img-thumbnail mb-3" src="https://store-images.s-microsoft.com/image/apps.14679.13754210357812593.c3c8aa7a-e063-438f-8dc1-02c5d4abfd95.b555e954-35b4-47f6-87fb-405136d7273e?q=90&w=480&h=270" alt="Stray">
+                        <h6>Stray</h6>
                         <span class="text-gray">By Developer - Dec 07, 2022</span>
                     </div>
                     <div class="col">
-                        <img class="img-thumbnail mb-3" src="https://w0.peakpx.com/wallpaper/66/721/HD-wallpaper-valorant-closed-beta-2020-game-poster.jpg" alt="Valorant">
-                        <h6>Valorant</h6>
+                        <img class="img-thumbnail mb-3" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1754840/header.jpg?t=1717593654 alt="Hacker Simulator">
+                        <h6>Hacker Simulator</h6>
                         <span class="text-gray">By Developer - Dec 07, 2022</span>
                     </div>
                 </div>
