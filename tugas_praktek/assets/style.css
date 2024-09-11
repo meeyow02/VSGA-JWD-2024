@@ -1,0 +1,95 @@
+.font-logo {
+  font-family: "Protest Guerrilla", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+.text-red {
+  color: red;
+}
+
+.img-hero {
+  width: 50% !important;
+  height: 85.6vh;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#carouselExampleSlidesOnly {
+  position: relative;
+}
+
+.margin-top-img {
+  margin-top: 6.5rem !important;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.mt-about {
+  margin-top: 2rem !important;
+}
+
+.img {
+  height: 25rem !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.item-center {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.mask {
+  background-color: hsla(0, 0%, 0%, 0.612);
+}
+
+.card-img {
+  height: 19rem !important;
+}
+
+.img-slide {
+  height: 50rem !important;
+}
+
+.img-logo {
+  width: 8rem !important;
+  height: 5.5rem !important;
+  opacity: 0.5 !important;
+}
+
+.mt-footer {
+  margin-top: 10rem !important;
+}
+
+.margin-top-nav {
+  margin-top: 10rem !important;
+}
+
+.mt-card {
+  margin-top: 5.5rem !important;
+}
+
+.card-title {
+  text-align: center !important;
+}/*# sourceMappingURL=style.css.map */
