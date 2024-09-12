@@ -92,4 +92,24 @@ a {
 
 .card-title {
   text-align: center !important;
+}
+
+.text-logo {
+  font-size: 1.5rem !important;
+}
+
+.gap-logo {
+  gap: 3.5rem !important;
+}
+
+#map {
+  height: 25rem !important;
+}
+
+.add-data {
+  color: #4f4f4f !important;
+}
+
+.container-form {
+  padding: 2rem 25rem;
 }/*# sourceMappingURL=style.css.map */

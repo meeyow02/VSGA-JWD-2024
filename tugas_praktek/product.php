@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['user'])) {
+    echo "<script>
+                alert('Login terlebih dahulu!');
+                window.location.href = 'login.php';
+            </script>";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,6 +57,7 @@
                         <a class="nav-link text-nav" href="visi-misi.php">Visi & Misi</a>
                         <a class="nav-link text-nav" href="profile.php">Profil</a>
                         <a class="nav-link active" aria-current="page" href="product.php">Produk</a>
+                        <a class="nav-link text-nav" href="contact.php">Kontak Kami</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Aktivitas
@@ -56,6 +68,7 @@
                                 <li><a class="dropdown-item" href="event.php">Event</a></li>
                             </ul>
                         </li>
+                        <a class="nav-link text-nav" href="controller/logout.php">Logout</a>
                     </div>
                 </div>
             </div>
@@ -64,61 +77,78 @@
 
     <div class="container margin-top-nav lh-lg text-justify">
         <h3>Produk / Jasa</h3>
-        <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
-            <div class="col-6 d-flex">
-                <img src="https://www.wahanahonda.com/assets/upload/berita/BERITA_1565677868_7210303bf80b64de0dacd1584c9c4b36.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
+        <a href="add_data.php" class="add-data">
+            <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
+                <div class="col-6 d-flex">
+                    <img src="https://www.wahanahonda.com/assets/upload/berita/BERITA_1565677868_7210303bf80b64de0dacd1584c9c4b36.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
+                </div>
+                <div class="col-6 mt-card lh-lg text-justify">
+                    <h4>Touring dan Event Berkendara</h4>
+                    <p>Kami rutin mengadakan kegiatan touring di berbagai rute menarik di dalam maupun luar kota. Kegiatan ini bukan hanya sekadar perjalanan, tetapi juga memberikan pengalaman berkendara yang seru dan penuh kebersamaan. Selain itu, kami juga mengorganisir berbagai event berkendara seperti rally, fun ride, dan lain-lain.
+                    </p>
+                </div>
             </div>
-            <div class="col-6 mt-card lh-lg text-justify">
-                <h4>Touring dan Event Berkendara</h4>
-                <p>Kami rutin mengadakan kegiatan touring di berbagai rute menarik di dalam maupun luar kota. Kegiatan ini bukan hanya sekadar perjalanan, tetapi juga memberikan pengalaman berkendara yang seru dan penuh kebersamaan. Selain itu, kami juga mengorganisir berbagai event berkendara seperti rally, fun ride, dan lain-lain.
-                </p>
+        </a>
+
+        <a href="add_data.php" class="add-data">
+            <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
+                <div class="col-6 d-flex">
+                    <img src="https://www.astramotor.co.id/wp-content/uploads/2019/08/safety-riding.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
+                </div>
+                <div class="col-6 mt-card lh-lg text-justify">
+                    <h4>Pelatihan dan Edukasi Keselamatan Berkendara</h4>
+                    <p>Keselamatan berkendara adalah prioritas utama kami. Oleh karena itu, kami menyediakan pelatihan keselamatan berkendara yang meliputi teknik berkendara yang aman, manajemen risiko di jalan, serta edukasi perawatan motor. Pelatihan ini dipandu oleh instruktur berpengalaman di bidangnya.</p>
+                </div>
             </div>
-        </div>
-        <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
-            <div class="col-6 d-flex">
-                <img src="https://www.astramotor.co.id/wp-content/uploads/2019/08/safety-riding.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
+        </a>
+
+        <a href="add_data.php" class="add-data">
+            <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
+                <div class="col-6 d-flex">
+                    <img src="https://asset-2.tstatic.net/palembang/foto/bank/images/Spesifikasi-Italjet-200-CC.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
+                </div>
+                <div class="col-6 mt-card lh-lg text-justify">
+                    <h4>Konsultasi Modifikasi Motor</h4>
+                    <p>Untuk para penggemar modifikasi motor, kami menawarkan layanan konsultasi modifikasi di mana anggota dapat berdiskusi dan mendapatkan ide serta saran dari ahli modifikasi dalam komunitas kami. Kami juga membantu dalam merekomendasikan bengkel dan penyedia suku cadang yang terpercaya.</p>
+                </div>
             </div>
-            <div class="col-6 mt-card lh-lg text-justify">
-                <h4>Pelatihan dan Edukasi Keselamatan Berkendara</h4>
-                <p>Keselamatan berkendara adalah prioritas utama kami. Oleh karena itu, kami menyediakan pelatihan keselamatan berkendara yang meliputi teknik berkendara yang aman, manajemen risiko di jalan, serta edukasi perawatan motor. Pelatihan ini dipandu oleh instruktur berpengalaman di bidangnya.</p>
+        </a>
+
+        <a href="add_data.php" class="add-data">
+            <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
+                <div class="col-6 d-flex">
+                    <img src="https://smkndander-bjn.sch.id/wp-content/uploads/2021/07/IMG_2645-scaled.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
+                </div>
+                <div class="col-6 mt-card lh-lg text-justify">
+                    <h4>Workshop dan Diskusi Teknis</h4>
+                    <p>Kami secara berkala mengadakan workshop teknis yang meliputi perawatan motor, penggantian suku cadang, hingga modifikasi mesin dan estetika motor. Workshop ini bertujuan untuk meningkatkan pengetahuan anggota seputar perawatan dan peningkatan performa motor mereka.</p>
+                </div>
             </div>
-        </div>
-        <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
-            <div class="col-6 d-flex">
-                <img src="https://asset-2.tstatic.net/palembang/foto/bank/images/Spesifikasi-Italjet-200-CC.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
+        </a>
+
+        <a href="add_data.php" class="add-data">
+            <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
+                <div class="col-6 d-flex">
+                    <img src="https://deepend.id/themedia/2024/02/Spare-Parts-Suzuki-di-IIMS-2024-4.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
+                </div>
+                <div class="col-6 mt-card lh-lg text-justify">
+                    <h4>Merchandise dan Aksesori Motor</h4>
+                    <p>Kami menyediakan berbagai merchandise eksklusif club motor seperti kaos, jaket, helm, hingga aksesori motor. Produk ini dibuat dengan desain yang unik dan kualitas premium, yang menggambarkan identitas dari Moto09.</p>
+                </div>
             </div>
-            <div class="col-6 mt-card lh-lg text-justify">
-                <h4>Konsultasi Modifikasi Motor</h4>
-                <p>Untuk para penggemar modifikasi motor, kami menawarkan layanan konsultasi modifikasi di mana anggota dapat berdiskusi dan mendapatkan ide serta saran dari ahli modifikasi dalam komunitas kami. Kami juga membantu dalam merekomendasikan bengkel dan penyedia suku cadang yang terpercaya.</p>
+        </a>
+
+        <a href="add_data.php" class="add-data">
+            <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
+                <div class="col-6 d-flex">
+                    <img src="https://global.yamaha-motor.com/showroom/event/2014-bangkok-international-motorshow/img/001.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
+                </div>
+                <div class="col-6 mt-card lh-lg text-justify">
+                    <h4>Jasa Pembuatan Event Otomotif</h4>
+                    <p>Dengan pengalaman kami dalam mengelola event motor, kami juga membuka layanan jasa pembuatan event otomotif untuk kalangan komunitas, perusahaan, atau pihak lain yang ingin menyelenggarakan acara yang berkaitan dengan dunia otomotif, seperti pameran motor, rally, atau peluncuran produk motor.</p>
+                </div>
             </div>
-        </div>
-        <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
-            <div class="col-6 d-flex">
-                <img src="https://smkndander-bjn.sch.id/wp-content/uploads/2021/07/IMG_2645-scaled.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
-            </div>
-            <div class="col-6 mt-card lh-lg text-justify">
-                <h4>Workshop dan Diskusi Teknis</h4>
-                <p>Kami secara berkala mengadakan workshop teknis yang meliputi perawatan motor, penggantian suku cadang, hingga modifikasi mesin dan estetika motor. Workshop ini bertujuan untuk meningkatkan pengetahuan anggota seputar perawatan dan peningkatan performa motor mereka.</p>
-            </div>
-        </div>
-        <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
-            <div class="col-6 d-flex">
-                <img src="https://deepend.id/themedia/2024/02/Spare-Parts-Suzuki-di-IIMS-2024-4.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
-            </div>
-            <div class="col-6 mt-card lh-lg text-justify">
-                <h4>Merchandise dan Aksesori Motor</h4>
-                <p>Kami menyediakan berbagai merchandise eksklusif club motor seperti kaos, jaket, helm, hingga aksesori motor. Produk ini dibuat dengan desain yang unik dan kualitas premium, yang menggambarkan identitas dari Moto09.</p>
-            </div>
-        </div>
-        <div class="row mx-auto shadow-lg p-4 rounded-5 mt-4">
-            <div class="col-6 d-flex">
-                <img src="https://global.yamaha-motor.com/showroom/event/2014-bangkok-international-motorshow/img/001.jpg" class="img-fluid img mx-auto my-auto rounded-3" alt="...">
-            </div>
-            <div class="col-6 mt-card lh-lg text-justify">
-                <h4>Jasa Pembuatan Event Otomotif</h4>
-                <p>Dengan pengalaman kami dalam mengelola event motor, kami juga membuka layanan jasa pembuatan event otomotif untuk kalangan komunitas, perusahaan, atau pihak lain yang ingin menyelenggarakan acara yang berkaitan dengan dunia otomotif, seperti pameran motor, rally, atau peluncuran produk motor.</p>
-            </div>
-        </div>
+        </a>
     </div>
 
     <!-- FOOTER -->
@@ -174,7 +204,6 @@
 
 
     <!-- SCRIPT -->
-    <script src="js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>

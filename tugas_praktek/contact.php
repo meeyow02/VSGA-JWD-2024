@@ -37,6 +37,13 @@
     <link
         href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css"
         rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
     <title>Tugas Praktek</title>
 </head>
 
@@ -54,12 +61,12 @@
                     <div class="navbar-nav gap-5">
                         <a class="nav-link text-nav" href="index.php">Beranda</a>
                         <a class="nav-link text-nav" href="about-us.php">Tentang Kami</a>
-                        <a class="nav-link active" aria-current="page" href="visi-misi.php">Visi & Misi</a>
+                        <a class="nav-link text-nav" href="visi-misi.php">Visi & Misi</a>
                         <a class="nav-link text-nav" href="profile.php">Profil</a>
                         <a class="nav-link text-nav" href="product.php">Produk</a>
-                        <a class="nav-link text-nav" href="contact.php">Kontak Kami</a>
+                        <a class="nav-link active" aria-current="page" href="contact.php">Kontak Kami</a>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Aktivitas
                             </a>
                             <ul class="dropdown-menu">
@@ -76,20 +83,20 @@
     </div>
 
     <div class="container margin-top-nav lh-lg text-justify">
-        <h3>Visi</h3>
-        <p class="mt-2">
-            Menjadi club motor terdepan di Indonesia yang dikenal karena semangat kebersamaan, solidaritas, serta kontribusi positif terhadap dunia otomotif dan masyarakat, sambil mempromosikan keselamatan berkendara dan kecintaan terhadap sepeda motor.
-        </p>
-        <h3 class="mt-5">Misi</h3>
-        <ol>
-            <li>Membangun komunitas solid yang menyatukan para pecinta motor dari berbagai latar belakang untuk berbagi pengalaman, pengetahuan, dan persahabatan.</li>
-            <li>Menyelenggarakan kegiatan rutin seperti touring, kopdar, dan acara bakti sosial untuk mempererat hubungan antar anggota dan mendukung masyarakat.</li>
-            <li>Mengedukasi anggota mengenai pentingnya keselamatan berkendara, perawatan sepeda motor, serta teknik berkendara yang bertanggung jawab.</li>
-            <li>Mendorong inovasi dan kreativitas dalam hal modifikasi dan perbaikan motor melalui diskusi dan workshop bersama anggota.</li>
-            <li>Berkolaborasi dengan komunitas otomotif lain untuk memperluas jaringan dan menjalin hubungan baik dengan berbagai pihak dalam industri otomotif.</li>
-            <li>Berperan aktif dalam event otomotif nasional dan internasional sebagai bentuk partisipasi dalam pengembangan dunia motor dan industri terkait.</li>
-        </ol>
-
+        <h3 class="mb-4">Kontak Kami</h3>
+        <div id="map" class="mb-5"></div>
+        <div class="d-flex justify-content-center gap-logo text-logo">
+            <!-- Fax -->
+            <div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+            <p>0651 23005</p>
+            <!-- Email -->
+            <div>
+                <i class="fa fa-envelope"></i>
+            </div>
+            <p>moto09@gmail.com</p>
+        </div>
     </div>
 
     <!-- FOOTER -->
@@ -148,6 +155,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script>
+        var lat = -5.148111;
+        var long = 119.430097;
+        var zoomLevel = 18;
+
+        var map = L.map('map').setView([lat, long], zoomLevel);
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        L.marker([lat, long]).addTo(map);
+    </script>
+
 
 </body>
 

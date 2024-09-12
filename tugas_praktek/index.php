@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['user'])) {
+    echo "<script>
+                alert('Login terlebih dahulu!');
+                window.location.href = 'login.php';
+            </script>";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,6 +59,7 @@
                         <a class="nav-link text-nav" href="visi-misi.php">Visi & Misi</a>
                         <a class="nav-link text-nav" href="profile.php">Profil</a>
                         <a class="nav-link text-nav" href="product.php">Produk</a>
+                        <a class="nav-link text-nav" href="contact.php">Kontak Kami</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Aktivitas
@@ -58,6 +70,7 @@
                                 <li><a class="dropdown-item" href="event.php">Event</a></li>
                             </ul>
                         </li>
+                        <a class="nav-link text-nav" href="controller/logout.php">Logout</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +95,7 @@
         </div>
         <div class="overlay">
             <h1 class="text-white"><span class="font-logo">Moto</span><span class="text-red font-logo">09</span> <span>Club</span></h1>
-            <p class="fs-4">Gabung Besama Kami!</p>
+            <p class="fs-4">Gabung Bersama Kami!</p>
         </div>
     </div>
 
@@ -259,7 +272,6 @@
     </footer>
 
     <!-- SCRIPT -->
-    <script src="js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
